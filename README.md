@@ -102,5 +102,8 @@ Replaces the background image of the page. The `<image link>` can be the path to
 ## backgroundGradient();
 ### syntax:
 `backgroundGradient([<color code 1>, <color code 2>, <color code 3>, <color code 4>], <body element>, <(optional) speed in secs>, <(optional) angle>);`
+### description:
+Replaces the background with animated colors. Replace `<color code ...>` with the colors you want. You can have as many as you want. Instead of the `<body element>` spacer, put the name of the variable defined earlier. If you want, to change the speed, replace the `<(optional) speed in secs>` spacer with your speed and if you want to change the angle of it, replace the `<(optional) speed in secs>` spacer with your angle.
 
-If you have questsions, you can send me a message on discord: [Tetris12#5223](https://discordapp.com/users/487130226158075915/)
+
+## If you have questsions, you can send me a message on discord: [Tetris12#5223](https://discordapp.com/users/487130226158075915/)
