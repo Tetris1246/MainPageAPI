@@ -25,7 +25,7 @@ the `<!DOCTYPE html>` and `<html></html>` tags are only there, because otherwise
 
 the `<body></body>` tag is the container into which the content will later be inserted
 
-`<script src="https://tetris1246.github.io/MainPageAPI/MainPageAPI.js"></script>` implements the api. If you implement it like that, the page only works with internet. If you want to use the page also offline you have to put in the same folder as in wich the `.html` file is, a `.js` file in wich you put [that](../blob/main/MainPageAPI.js) code. Then you put instead of the codepiece above (`<script> src="...`) you write `<script src="theJustCreatedDotJSFile.js"</script>`.
+`<script src="https://tetris1246.github.io/MainPageAPI/MainPageAPI.js"></script>` implements the api. If you implement it like that, the page only works with internet. If you want to use the page also offline you have to put in the same folder as in wich the `.html` file is, a `.js` file in wich you put [that](../main/MainPageAPI.js) code. Then you put instead of the codepiece above (`<script> src="...`) you write `<script src="theJustCreatedDotJSFile.js"</script>`.
 
 into the other script tag (`<script> </script>`) you put the main code. `let body = document.getElementsByTagName("body")[0];` defines the element, in wich the page goes. in the sample above it's the `body` element.
 
