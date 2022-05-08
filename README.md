@@ -29,3 +29,75 @@ the `<body></body>` tag is the container into which the content will later be in
 
 into the other script tag (`<script> </script>`) you put the main code. `let body = document.getElementsByTagName("body")[0];` defines the element, in wich the page goes. in the sample above it's the `body` element.
 
+# Commands
+## space();
+### syntax:
+`space(<space in px>, <body element>);`
+### description:
+Inserts a space
+
+
+## customIcon();
+### syntax:
+`customIcon(<page link>, <image link>)`
+### description:
+If you want, to change the icon for a page in these commands: `addBigFields()` & `addIcons()`, you can put instead of the link, the `customIcon()` command. The `<image link>` can be the path to a image or `.gif` file or a URL.
+
+
+##  changeApi();
+### syntax:
+`changeApi(<api link>);`
+### description:
+You can use the `changeApi()` command, for chaneging the api, that takes the icons automaticly. As default, the google favicon api is used. But you can add your own api. In the URL, you replace the size of the icon with `{size}` and the URL with `{url}`.
+
+
+## changeIconResolution();
+### syntax:
+`changeIconResolution(<size>);`
+### description:
+If you want to change the resolution of the icons, you can use the `changeIconResolution()` command. Instead of the `<size>` spacer, put the resolution in px. The default is 64.
+
+
+## addBigFields();
+### syntax:
+`addBigFields([<link1>, <link2>, <link3>, ...], <body element>);`
+### description:
+Adds big fields centered to the page. You can add as many icons, as you want. In the syntax above, the URL of the page is specified instead of the `<link...>` spacer. The icon will be taken automatically if you do not use the `customIcon()` function. Instead of the `<body element>` spacer, put the name of the variable defined earlier.
+
+
+## addIcons();
+### syntax:
+`addIcons([<link1>, <link2>, <link3>, ...], <body element>);`
+### description:
+Adds icons centered to the page. You can add as many icons, as you want. In the syntax above, the URL of the page is specified instead of the `<link...>` spacer. The icon will be taken automatically if you do not use the `customIcon()` function. Instead of the `<body element>` spacer, put the name of the variable defined earlier.
+
+
+## addSearchbar();
+### syntax:
+`addSearchbar(<specific search engine>, <body element>);`
+### description:
+Adds a searchbar to the page. Instead of the `<specific search engine>` spacer, you put one of these URLs:
+-  www.google.com
+-  www.bing.com
+-  www.duckduckgo.com
+-  de.wikipedia.or
+-  www.ecosia.org 
+
+Instead of the `<body element>` spacer, put the name of the variable defined earlier.
+
+
+## backgroundColor();
+### syntax:
+`backgroundColor(<color>, <body element>);`
+### description:
+Replaces the background color of the page. Instead of the `<color>` spacer, put a hex colorcode ([colorPicker](https://tetris1246.github.io/colorPicker/)), that you want. Instead of the `<body element>` spacer, put the name of the variable defined earlier.
+
+## backgroundImage();
+### syntax:
+`backgroundImage(<image link>, <body element>)`
+### description:
+Replaces the background image of the page. The `<image link>` can be the path to a image or `.gif` file or a URL. Instead of the `<body element>` spacer, put the name of the variable defined earlier.
+
+
+If you have questsions, you can send me a message on discord: [Tetris12#5223](https://discordapp.com/users/487130226158075915/)
+    
