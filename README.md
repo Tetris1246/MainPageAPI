@@ -2,7 +2,7 @@
 ## What is it?
 MainPageAPI is a sort of tool for creating your own mainpage with own icons...
 ## Why it exists
-MainPageAPI exists, because some time ago i made [this](https://tetris1246.github.io/) page and after i shared it to my classmates. Everyone wanted just this one link replaced with another and so on. That's the reason i developed this API.
+MainPageAPI exists, because some time ago i made [this](https://tetris1246.github.io/) page and after i shared it to my classmates, everyone wanted just this one link replaced with another and so on. That's the reason i developed this API.
 After a quick research i did not find a API like this one. Thats the reason why i published this. 
 ## How to use it
 ### The structure
@@ -16,7 +16,6 @@ After a quick research i did not find a API like this one. Thats the reason why 
     <script src="https://tetris1246.github.io/MainPageAPI/MainPageAPI.js"></script>
     <script>
         let bodyElement = document.getElementsByTagName("body")[0];
-
 
     </script>
 </html>
@@ -92,11 +91,16 @@ Instead of the `<body element>` spacer, put the name of the variable defined ear
 ### description:
 Replaces the background color of the page. Instead of the `<color>` spacer, put a hex colorcode ([colorPicker](https://tetris1246.github.io/colorPicker/)), that you want. Instead of the `<body element>` spacer, put the name of the variable defined earlier.
 
+
 ## backgroundImage();
 ### syntax:
 `backgroundImage(<image link>, <body element>)`
 ### description:
 Replaces the background image of the page. The `<image link>` can be the path to a image or `.gif` file or a URL. Instead of the `<body element>` spacer, put the name of the variable defined earlier.
 
+
+## backgroundGradient();
+### syntax:
+`backgroundGradient([<color code 1>, <color code 2>, <color code 3>, <color code 4>], <body element>, <(optional) speed in secs>, <(optional) angle>);`
 
 If you have questsions, you can send me a message on discord: [Tetris12#5223](https://discordapp.com/users/487130226158075915/)
