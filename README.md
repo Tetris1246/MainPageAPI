@@ -41,21 +41,21 @@ Inserts a space
 ### syntax:
 `customIcon(<page link>, <image link>)`
 ### description:
-If you want, to change the icon for a page in these commands: `addBigFields()` & `addIcons()`, you can put instead of the link, the `customIcon()` command. The `<image link>` can be the path to a image or `.gif` file or a URL.
+Changes a icon in these commands: `addBigFields()` & `addIcons()`. you can put instead of the link, the `customIcon()` command. Instead of the `<page link>` spacer, put the link to the webpage. The `<image link>` spacer can be the path to a image or `.gif` file or a URL.
 
 
 ##  changeApi();
 ### syntax:
 `changeApi(<api link>);`
 ### description:
-You can use the `changeApi()` command, for chaneging the api, that takes the icons automaticly. As default, the google favicon api is used. But you can add your own api. In the URL, you replace the size of the icon with `{size}` and the URL with `{url}`.
+Changes the API, that takes the icons automaticly. As default, the google favicon API is used. But you can add your own api. In the URL, replace the size of the icon with `{size}` and the URL with `{url}`.
 
 
 ## changeIconResolution();
 ### syntax:
 `changeIconResolution(<size>);`
 ### description:
-If you want to change the resolution of the icons, you can use the `changeIconResolution()` command. Instead of the `<size>` spacer, put the resolution in px. The default is 64.
+Changes the resolution of the icons. Instead of the `<size>` spacer, put the resolution in px. The default is 64.
 
 
 ## addBigFields();
@@ -80,7 +80,7 @@ Adds a searchbar to the page. Instead of the `<specific search engine>` spacer, 
 -  www.google.com
 -  www.bing.com
 -  www.duckduckgo.com
--  de.wikipedia.or
+-  de.wikipedia.org
 -  www.ecosia.org 
 
 Instead of the `<body element>` spacer, put the name of the variable defined earlier.
@@ -100,4 +100,3 @@ Replaces the background image of the page. The `<image link>` can be the path to
 
 
 If you have questsions, you can send me a message on discord: [Tetris12#5223](https://discordapp.com/users/487130226158075915/)
-    
